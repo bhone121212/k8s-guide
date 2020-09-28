@@ -1,4 +1,4 @@
-
+apiVersion: apps/v1 #version of the API to use
 kind: ReplicaSet #What kind of object we're deploying
 metadata: #information about our object we're deploying
   name: mosquitto-replicaset
