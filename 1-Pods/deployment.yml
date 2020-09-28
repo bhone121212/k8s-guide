@@ -14,7 +14,7 @@ spec: #specifications for our object
   selector: #which pods the replica set should be responsible for
     matchLabels:
       app: ump #any pods with labels matching this I'm responsible for.
-  template: #The pod template that gets deployed
+  template: #The pod template that gets depcloyed
     metadata:
       labels: #A tag on the replica sets created
         app: ump
