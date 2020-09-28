@@ -13,7 +13,7 @@ spec: #specifications for our object
         app: mosquitto
     spec:
       containers:
-      - name: mosquitto-container #the name of the container within the pod
+      - name: mosquitt-container #the name of the container within the pod
         image: yenaing/ubuntu_mosqutto #which container image should be pulled
         ports:
         - containerPort: 5000 #the port of the container within the pod
